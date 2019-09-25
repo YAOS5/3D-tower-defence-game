@@ -21,6 +21,7 @@ public class NewBehaviourScript : MonoBehaviour
     {
         // will need to create a function to calculate the
         // direction (velocity) between the mobile target and itself
+        velocity 
         this.transform.Translate(velocity * Time.deltaTime);
     }
 
